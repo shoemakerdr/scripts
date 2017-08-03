@@ -25,18 +25,14 @@
 # -----------------------------------------------------------------------------
 
 DIR=$1
-echo "Creating directory ${DIR}"
 mkdir $DIR
 cd $DIR
-echo "Creating index.html"
 cp ~/scripts/copy_files/index.html .
-echo "Creating style.css"
 touch style.css
 mkdir dist
 mkdir src
 cd src
-echo "Creating index.js"
 touch index.js
 cd ..
 git init
-echo "Finished."
+echo "Created new app: ${DIR}."
