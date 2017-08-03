@@ -29,7 +29,7 @@ echo "Creating directory ${DIR}"
 mkdir $DIR
 cd $DIR
 echo "Creating index.html"
-cp ~/bash_scripts/copy_files/index.html .
+cp ~/scripts/copy_files/index.html .
 echo "Creating style.css"
 touch style.css
 mkdir dist
