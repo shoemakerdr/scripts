@@ -31,6 +31,7 @@ cd $DIR
 cp ~/scripts/copy_files/index.html .
 cp ~/scripts/copy_files/.gitignore .
 touch style.css
+touch README.md
 mkdir dist
 mkdir src
 cd src
