@@ -6,9 +6,10 @@
 #
 # 		<directory_name>
 # 		|-- src/
-# 			|-- index.js
+# 		    |-- index.js
 # 		|-- index.html
 # 		|-- style.css
+#		|-- .gitignore
 #
 # 	I recommend added the following line to your ~/.bashrc file:
 #
