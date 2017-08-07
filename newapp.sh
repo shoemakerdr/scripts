@@ -28,6 +28,7 @@ DIR=$1
 mkdir $DIR
 cd $DIR
 cp ~/scripts/copy_files/index.html .
+cp ~/scripts/copy_files/.gitignore .
 touch style.css
 mkdir dist
 mkdir src
