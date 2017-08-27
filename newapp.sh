@@ -2,7 +2,7 @@
 
 # -----------------------------------------------------------------------------
 # 	A simple script that creates a new directory structure for a simple web app
-# 	and initiates it as a git repo.
+# 	and initiates it as a git repo and npm package. It also copies in a simple webpack config file.
 #
 # 		<directory_name>
 # 		|-- src/
@@ -30,6 +30,7 @@ mkdir $DIR
 cd $DIR
 cp ~/scripts/copy_files/index.html .
 cp ~/scripts/copy_files/.gitignore .
+cp ~/scripts/copy_files/webpack.config.js .
 touch style.css
 touch README.md
 mkdir dist
@@ -38,4 +39,5 @@ cd src
 touch index.js
 cd ..
 git init
-echo "Created new app: ${DIR}."
+npm init -y
+echo "Created new app: ${DIR}.\ncd ${DIR} to get started."
