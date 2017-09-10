@@ -56,4 +56,6 @@ git init
 npm init -y
 npm i -D mocha chai webpack babel-register babel-polyfill babel-preset-env babel-core babel-loader
 echo "Created new front end library: ${DIR}.\n\ncd ${DIR} to get started.\n"
-echo "You should add:\n\n\"test\": \"mocha --require babel-polyfill --compilers js:babel-register --recursive || true\" \n\nto your npm scripts in your package.json to set up your testing environment.\n\n"
+echo "You should add:\n\n"
+echo "\"test\": \"mocha --require babel-polyfill --compilers js:babel-register --recursive || true\"\n\n"
+echo "to your npm scripts in your package.json to set up your testing environment.\n\n"
